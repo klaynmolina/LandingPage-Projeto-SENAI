@@ -17,5 +17,5 @@ function changeColorContato() {
     const currentPage = 'current-page';
     if (window.location.href.split('/')[5] == 'contato.html') {
         contato.classList.toggle(currentPage);
-    }
+    } 
 }
